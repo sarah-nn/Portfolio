@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Alnajjar Alnaal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Sarah<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 id="hero-name">Sarah Alnajjar Alnaal</h1>
+                <h2 id="hero-title">Application Developer</h2>
+                <p id="hero-summary" class="hero-description"></p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#experience" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="social-links" id="social-links">
+                    <!-- Social links will be loaded dynamically -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="blob"></div>
+                    <i class="fas fa-user-circle profile-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Developer</h3>
+                    <p>Passionate Flutter developer building cross-platform mobile applications</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile First</h3>
+                    <p>Creating responsive and user-friendly mobile experiences</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Backend Integration</h3>
+                    <p>Integrating Firebase and RESTful APIs for robust applications</p>
+                </div>
+            </div>
+            <div class="languages-section">
+                <h3>Languages</h3>
+                <div id="languages-container" class="languages-container">
+                    <!-- Languages will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Projects</h2>
+            <div id="experience-container" class="experience-container">
+                <!-- Experience will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div id="skills-container" class="skills-container">
+                <!-- Skills will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div id="education-container" class="education-container">
+                <!-- Education will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p id="contact-email"></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p id="contact-phone"></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p id="contact-location"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <h3>Connect with me</h3>
+                    <div id="contact-social-links" class="social-links-large">
+                        <!-- Social links will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 <span id="footer-name">Sarah Alnajjar Alnaal</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

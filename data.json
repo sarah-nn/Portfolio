@@ -1,0 +1,72 @@
+{
+  "personalInfo": {
+    "name": "Sarah Alnajjar Alnaal",
+    "title": "Application Developer",
+    "phone": "+963943597663",
+    "email": "saranajjar647@gmail.com",
+    "linkedin": "http://www.linkedin.com/in/sarah-alnajjar-alnaal-9b48a12b4",
+    "location": "Damascus"
+  },
+  "summary": "Flutter Developer. A passionate and self-taught mobile application developer with solid experience in developing cross-platform applications using Flutter. Proficient in designing and building interactive user interfaces (UI), managing cloud services with Firebase, and integrating RESTful APIs. I am dedicated to continuously enhancing my skills and consistently delivering exceptional results in every project.",
+  "experience": [
+    {
+      "title": "Tourism-Management-System",
+      "company": "Unigo",
+      "description": [
+        "Unigo is an app that helps users discover the world and book hotels, planes, and trips easily",
+        "Personalized trip recommendations based on user preferences",
+        "Customizable itineraries with options for flights, hotels, and activities",
+        "Seamless booking process with instant confirmation",
+        "Loyalty program with rewards and exclusive offers"
+      ],
+      "projectRepo": "https://github.com/sarah-nn/tourism_project",
+      "demo": "https://www.facebook.com/100030011208122/videos/521517983734761/"
+    },
+    {
+      "title": "Built a Flutter-based note-taking app",
+      "company": "Notes App",
+      "description": [
+        "Built a Flutter-based note-taking app that allows users to create, edit, and view their notes",
+        "Utilized Hive's lightweight and efficient database to store and retrieve user data ensuring fast performance and a smooth user experience"
+      ],
+      "projectRepo": "https://github.com/sarah-nn/to_do_app",
+      "demo": null
+    }
+  ],
+  "education": {
+    "degree": "5th Year Information Technology student",
+    "institution": "Damascus University",
+    "startDate": "01/2021"
+  },
+  "languages": [
+    {
+      "language": "Arabic",
+      "level": "Proficient",
+      "rating": 5
+    },
+    {
+      "language": "English",
+      "level": "Advanced",
+      "rating": 4
+    }
+  ],
+  "skills": [
+    "APIs",
+    "Clean Code",
+    "Dart",
+    "Firebase",
+    "Problem Solving",
+    "Git/Github",
+    "Hive",
+    "Java",
+    "OOP",
+    "Restful",
+    "Restful APIs",
+    "Bloc / Getx Flutter State Management"
+  ],
+  "socialLinks": {
+    "github": "https://github.com/sarah-nn",
+    "linkedin": "http://www.linkedin.com/in/sarah-alnajjar-alnaal-9b48a12b4",
+    "telegram": "https://t.me/SarahN_N"
+  }
+}
